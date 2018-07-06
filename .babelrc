@@ -3,12 +3,14 @@
     "development": {
       "presets": ["react-native"],
       "plugins": [
+        "@babel/plugin-proposal-export-default-from",
         "transform-flow-strip-types"
       ]
     },
     "publish": {
       "presets": ["react-native-syntax"],
       "plugins": [
+        "@babel/plugin-proposal-export-default-from",
         "transform-flow-strip-types"
       ]
     }
