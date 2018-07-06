@@ -35,7 +35,7 @@
     "setupFiles": [],
     "unmockedModulePathPatterns": ["./node_modules/react", "./node_modules/react-native", "./node_modules/react-native-mock", "./node_modules/react-addons-test-utils"]
   },
-  "license": "APACHE-2.0",
+  "license": "Apache-2.0",
   "keywords": ["react", "admob", "auth", "config", "digits", "fabric", "functions", "phone-auth", "sms", "firestore", "cloud-firestore", "datastore", "remote-config", "transactions", "react-native", "react-native-firebase", "firebase", "fcm", "apn", "gcm", "analytics", "messaging", "database", "android", "ios", "crash", "firestack", "performance", "firestore", "dynamic-links", "crashlytics"],
   "peerDependencies": {
     "react": "*",
@@ -43,11 +43,12 @@
     "fbjs": "*"
   },
   "devDependencies": {
-    "babel-cli": "^7.0.0-beta.3",
+    "@babel/cli": "7.0.0-beta.47",
+    "@babel/core": "7.0.0-beta.47",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^14.1.0",
     "babel-preset-react-native": "^5.0.2",
-    "babel-preset-react-native-syntax": "^1.0.0",
+    "babel-preset-react-native-syntax": "git+https://github.com/CSFrequency/babel-preset-react-native-syntax.git",
     "debug": "^2.6.9",
     "enzyme": "^2.4.1",
     "eslint": "^4.18.1",
@@ -62,7 +63,9 @@
     "flow-copy-source": "^1.3.0",
     "genversion": "^2.0.1",
     "husky": "^0.14.3",
+    "install": "^0.12.1",
     "lint-staged": "^6.1.1",
+    "npm": "^6.1.0",
     "prettier": "1.10.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
