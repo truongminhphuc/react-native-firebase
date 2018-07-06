@@ -15,7 +15,8 @@ project.xcworkspace/
 xcuserdata/
 
 # Config files
-.babelrc
+# Include .babelrc to fix issues with babel 7 building from a branch
+# .babelrc
 .editorconfig
 .eslintrc
 .flowconfig
